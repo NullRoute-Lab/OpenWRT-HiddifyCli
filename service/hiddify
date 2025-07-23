@@ -5,11 +5,13 @@ STOP=10
 
 RAM_MODE=true
 
-HIDDIFY_URL="https://github.com/QUANT81/hiddify-core/releases/download/v1.0.1/hiddify-cli-linux-mipsel-softfloat.tar.gz"
+HIDDIFY_URL="https://github.com/NullRoute-Lab/hiddify-core/releases/download/v1.0.1/hiddify-cli-linux-mipsel-softfloat.tar.gz"
 # HIDDIFY_URL="https://github.com/PacketCipher/hiddify-core/releases/download/draft/hiddify-cli-linux-mipsel-softfloat.tar.gz"
 # HIDDIFY_URL="https://github.com/hiddify/hiddify-core/releases/download/v3.1.8/hiddify-cli-linux-mipsel-softfloat.tar.gz"
+# HIDDIFY_URL="https://github.com/NullRoute-Lab/hiddify-core/releases/download/v1.0.1/hiddify-cli-linux-arm64.tar.gz"
 
-SUB_URLS="https://raw.githubusercontent.com/tvccccc/TVCCCC/refs/heads/main/subscriptions/xray/normal/mix http://router.freehost.io/github/mix.txt https://raw.githubusercontent.com/PacketCipher/TVC/refs/heads/main/subscriptions/xray/normal/mix"
+
+SUB_URLS="http://router.freehost.io/github/mix.txt https://raw.githubusercontent.com/tvccccc/TVCCCC/refs/heads/main/subscriptions/xray/normal/mix https://raw.githubusercontent.com/PacketCipher/TVC/refs/heads/main/subscriptions/xray/normal/mix"
 SUB_URL=$(echo "$SUB_URLS" | cut -d' ' -f1)
 
 # Modify OpenVPN to be enabled or not
