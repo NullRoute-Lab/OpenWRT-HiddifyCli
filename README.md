@@ -31,7 +31,7 @@ You can apply policy routing using the `pbr` package.
 
 -----
 
-wget https://github.com/NullRoute-Lab/OpenWRT-HiddifyCli.git -O main.zip && unzip main.zip
+wget https://github.com/NullRoute-Lab/OpenWRT-HiddifyCli/archive/refs/heads/main.zip -O main.zip && unzip main.zip
 
 chmod +x ./setup.sh
 
