@@ -61,6 +61,15 @@ chmod +x cleanup.sh
 ------
 tested on : Xiaomi Mi Router 4A Gigabit Edition
 
+------
+
+# SUB_URL="http://router.freehost.io/github/mix.txt"
+# SUB_URL="https://raw.githubusercontent.com/PacketCipher/TVC/refs/heads/main/subscriptions/xray/normal/mix"
+# SUB_URL="https://raw.githubusercontent.com/hiddify/hiddify-next/main/test.configs/warp"
+# SUB_URL="https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/hiddify/warp"
+# SUB_URL="https://raw.githubusercontent.com/hiddify/hiddify-app/refs/heads/main/test.configs/warp"
+
+
 -----
 # TODO
 vaghti bargh mire... hanoz ham last config's to chache bashe
