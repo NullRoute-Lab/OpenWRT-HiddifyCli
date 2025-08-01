@@ -19,6 +19,7 @@ rm -f /etc/init.d/hiddify
 echo "Removing files and directories from /root/..."
 rm -f /root/hiddify-conf.json
 rm -f /root/hiddify-openvpn-conf.json
+rm -f /root/hiddify_urls.conf
 rm -f /root/hiddify_watchdog.sh
 rm -f /root/hiddify_openvpn_watchdog.sh
 rm -f /root/update_subscriptions.sh

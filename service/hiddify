@@ -101,9 +101,6 @@ remove_cron_job() {
 
 start() {
     echo "Starting Hiddify service..."
-    
-    cp -f /etc/init.d/update_subscriptions.sh /root/update_subscriptions.sh
-    chmod +x /root/update_subscriptions.sh
 
     if [ ! -f "$SERVICE_DIR/HiddifyCli" ]; then
         download_and_extract || return 1
