@@ -1,8 +1,7 @@
 #!/bin/sh
 
-# Read SUB_URLS from the hiddify service file
-if [ -f "/etc/init.d/hiddify" ]; then
-    SUB_URLS=$(grep -o 'SUB_URLS="[^"]*"' /etc/init.d/hiddify | sed 's/SUB_URLS="//;s/"//')
+if [ -f "/root/hiddify_urls.conf" ]; then
+    . /root/hiddify_urls.conf
 fi
 
 # State file to store the current subscription URL
