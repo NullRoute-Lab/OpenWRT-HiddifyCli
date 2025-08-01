@@ -11,7 +11,9 @@ HIDDIFY_URL="https://github.com/NullRoute-Lab/hiddify-core/releases/download/v1.
 # HIDDIFY_URL="https://github.com/NullRoute-Lab/hiddify-core/releases/download/v1.0.1/hiddify-cli-linux-arm64.tar.gz"
 
 
-SUB_URLS="http://router.freehost.io/github/mix.txt https://raw.githubusercontent.com/tvccccc/TVCCCC/refs/heads/main/subscriptions/xray/normal/mix https://raw.githubusercontent.com/PacketCipher/TVC/refs/heads/main/subscriptions/xray/normal/mix"
+if [ -f "/root/hiddify_urls.conf" ]; then
+    . /root/hiddify_urls.conf
+fi
 SUB_URL=$(echo "$SUB_URLS" | cut -d' ' -f1)
 
 # Modify OpenVPN to be enabled or not
