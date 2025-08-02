@@ -1,4 +1,5 @@
 # Update opkg and install necessary packages
+# install kmod-tun for tunnel mode
 opkg update
 opkg install coreutils-nohup curl wget jq
 
